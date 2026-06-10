@@ -105,3 +105,10 @@ LIVINGAREA_AVG
 ## Credit Bureau Variables
 `AMT_REQ_CREDIT_BUREAU_HOUR`: Number of bureau inquiries in last hour
 
+# Results
+
+The competition evaluate the ROC-AUC. We get a value of 0.77. That means, if we randomly pick one customer who defaulted and one who did not, the model will assign a higher risk score to the defaulter about 77% of the time. 
+
+# Notebook on kaggle 
+
+https://www.kaggle.com/code/cristianmacias31/home-credit-risk
